@@ -82,10 +82,11 @@
     font-weight: 400;
     text-align: center;
 }
-
+#view2 .middle{
+    width: 100vw;
+}
 #view2 .middle iframe {
     aspect-ratio: 16/9;
-    margin-left: 5vw;
     margin-top: 5vw;
     border-radius: 20px;
     overflow: hidden;
