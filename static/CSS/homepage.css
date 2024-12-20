@@ -15,7 +15,7 @@
 
 #view1 .middle p {
     line-height: 1.2;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 100;
     font-family: 'NeueMachina';
     margin-bottom: 5vw;
@@ -35,20 +35,20 @@
 #view1 .middle #button {
     text-decoration: none;
     color: black;
-    padding: 1.5vw 5vw;
+    padding: 1vw;
     background-color: #24cfa6;
     border-radius: 10px;
     font-family: 'NeueMachina';
-    font-size: 4vw;
+    font-size: 1vw;
     font-weight: bold;
 }
 
 #view1 .middle .side-text {
-    font-size: 2.5vw;
-    width: 40%;
+    font-size: 1vw;
+    width: 15%;
     text-align: left;
     position: absolute;
-    right: 5%;
+    right: 20%;
     bottom: 0;
 }
 
@@ -78,40 +78,46 @@
     width: 100%;
     font-family: 'NeueMachina';
     margin-top: 5vw;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 400;
     text-align: center;
+
 }
 #view2 .middle{
     width: 100vw;
+    
 }
 #view2 .middle iframe {
     aspect-ratio: 16/9;
-    margin-top: 5vw;
     border-radius: 20px;
     overflow: hidden;
     width: 80vw;
     border: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5vh;
+    bottom: 5vh;
 }
 
 #view2 {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
+
 
 #view2 .bottom {
-    margin: auto;
     margin-top: 5vw;
-}
+    display: flex;
+    justify-content: center;
 
+}
 #view2 .bottom #button {
     text-decoration: none;
     color: black;
-    padding: 1.5vw 5vw;
+    padding: 1vw 3vw;
+    font-size: 1.5vw;
     background-color: #24cfa6;
-    border-radius: 10px;
+    border-radius: 1vw;
     margin: 0 auto;
 }
 
@@ -121,7 +127,7 @@
 }
 
 #view3 #courses_offered {
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: 200;
 }
 
@@ -139,19 +145,18 @@
 }
 
 #view3 #courses .course #image_link {
-    width: 45vw;
-    height: fit-content;
+    width: 20vw;
     border-radius: 20px;
     background-color: #181717;
     display: block;
     text-decoration: none;
     color: white;
-    border-radius: 25px;
+    border-radius: 2vw;
     overflow: hidden;
 }
 
 #view3 #courses .course #image_link p {
-    font-size: 3vw;
+    font-size: 1.5vw;
     font-weight: 300;
     font-family: 'NeueMachina';
     margin-left: 5%;
@@ -159,20 +164,20 @@
 }
 
 #view3 #courses .course img {
-    width: 45vw;
-    margin-bottom: 2vw;
+    width: 20vw;
+    margin-bottom: 1vw;
 }
 
 #view3 #courses .course #link {
-    width: 40vw;
-    padding: 2vw 6vw;
+    width: 18vw;
+    padding: 1vw;
     text-align: center;
     color: black;
     text-decoration: none;
     background-color: #24cfa6;
     display: block;
     border-radius: 20px;
-    font-size: 4vw;
+    font-size: 1.5vw;
     margin-top: 3vw;
     font-weight: bold;
     font-family: 'NeueMachina';
@@ -198,7 +203,7 @@
 }
 
 #view4 #button {
-    width: 35vw;
+    width: 30vw;
     padding: 2vw 6vw;
     text-align: center;
     color: black;
@@ -206,72 +211,9 @@
     background-color: #24cfa6;
     display: block;
     border-radius: 20px;
-    font-size: 4vw;
+    font-size: 2.7vw;
     font-weight: bold;
     font-family: 'NeueMachina';
     margin: 5vw auto;
 }
 
-/* Media Queries for different screen sizes */
-@media screen and (max-width: 768px) {
-    #view1 .middle p {
-        font-size: 7vw;
-    }
-
-    #view2 .top {
-        font-size: 6vw;
-    }
-
-    #view2 .middle iframe {
-        margin-left: 5vw;
-        width: 90vw;
-    }
-
-    #view3 #courses .course {
-        margin-right: 5vw;
-        margin-bottom: 5vw;
-    }
-
-    #view3 #courses .course img {
-        width: 90vw;
-    }
-
-    #view3 #courses .course #link {
-        width: 70vw;
-        font-size: 5vw;
-    }
-
-    #view4 #button {
-        width: 70vw;
-        font-size: 5vw;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    #view1 .middle p {
-        font-size: 8vw;
-    }
-
-    #view2 .top {
-        font-size: 7vw;
-    }
-
-    #view3 #courses .course {
-        margin-right: 3vw;
-        margin-bottom: 5vw;
-    }
-
-    #view3 #courses .course img {
-        width: 90vw;
-    }
-
-    #view3 #courses .course #link {
-        width: 80vw;
-        font-size: 6vw;
-    }
-
-    #view4 #button {
-        width: 80vw;
-        font-size: 6vw;
-    }
-}
