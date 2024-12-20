@@ -2,84 +2,92 @@
     font-family: NeueMachina;
     src: url(../fonts/NeueMachina-Regular.otf);
 }
-#view1 #mainheading{
-    font-size: 75px;
+
+/* Base styles for all devices */
+#view1 #mainheading {
+    font-size: 3vw; /* Use viewport width for scalability */
     font-family: NeueMachina;
     font-weight: 300;
-    line-height: 70px;
-    margin-left: 50px;
-    margin-top: 100px;
+    line-height: 8vw;
+    margin-left: 5vw;
+    margin-top: 10vw;
 }
-#view1 #green{
-    font-size: 75px;
+
+#view1 #green {
+    font-size: 5vw;
     font-family: NeueMachina;
     font-weight: 300;
     color: #24cfa6;
-    margin-left: 50px;
-    margin-top: -10px;
+    margin-left: 5vw;
+    margin-top: -2vw;
 }
-#view1 #subheading{
-    font-size: 30px;
-    margin-left: 50px;
-    margin-top: 70px;
-    font-family: NeueMachina;
 
+#view1 #subheading {
+    font-size: 2vw;
+    margin-left: 5vw;
+    margin-top: 8vw;
+    font-family: NeueMachina;
 }
-#view2{
-    margin-top: 50px;
-    margin-left: 50px;
+
+#view2 {
+    margin-top: 5vw;
+    margin-left: 5vw;
 }
-#view2 p{
-    font-size: 45px;
+
+#view2 p {
+    font-size: 4vw;
     font-weight: 200;
     font-family: NeueMachina;
-
 }
-#view2 #courses{
+
+#view2 #courses {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 5vw;
     width: 100%;
 }
-#view2 #courses .course{
-    margin-right: 100px;
-    margin-bottom: 100px;
+
+#view2 #courses .course {
+    margin-right: 10vw;
+    margin-bottom: 10vw;
 }
-#view2 #courses .course #image_link{
-    width: 450px;
+
+#view2 #courses .course #image_link {
+    width: 20vw;
     height: fit-content;
-    border-radius: 20px;
+    border-radius: 2vw;
     background-color: #181717;
     display: block;
     text-decoration: none;
     color: white;
     overflow: hidden;
 }
-#view2 #courses .course #image_link p{
-    font-size: 30px;
+
+#view2 #courses .course #image_link p {
+    font-size: 2vw;
     font-weight: 300;
     font-family: NeueMachina;
-    padding-bottom: 10px;
-    margin-left: 20px;
+    padding-bottom: 2vw;
+    margin-left: 1vw;
+}
 
+#view2 #courses .course img {
+    width: 20vw;
+    margin-bottom: 2vw;
 }
-#view2 #courses .course img{
-    width: 450px;
-    margin-bottom: 10px;
-}
-#view2 #courses .course #link{
-    width: 400px;
-    padding: 7px 25px;
+
+#view2 #courses .course #link {
+    width: 18vw;
+    padding: 1vw;
     text-align: center;
     color: black;
     text-decoration: none;
     background-color: #24cfa6;
     display: block;
-    border-radius: 10px;
-    font-size: 30px;
-    margin-top: 25px;
+    border-radius: 2vw;
+    font-size: 2vw;
+    margin-top: 3vw;
     font-weight: bold;
     font-family: NeueMachina;
-
 }
