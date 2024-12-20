@@ -85,7 +85,6 @@
 
 #view2 .middle iframe {
     aspect-ratio: 16/9;
-    max-width: 80vw;
     margin-left: 5vw;
     margin-top: 5vw;
     border-radius: 20px;
