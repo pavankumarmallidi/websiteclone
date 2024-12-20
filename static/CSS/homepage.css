@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'NeueMachina';
     src: url(../fonts/NeueMachina-Light.otf);
@@ -9,25 +8,24 @@
 }
 
 #view1 .middle {
-    margin-top: 100px;
+    margin-top: 10vw;
     text-align: center;
     position: relative;
 }
 
 #view1 .middle p {
-    line-height: 85px;
-    font-size: 90px;
+    line-height: 1.2;
+    font-size: 6vw;
     font-weight: 100;
     font-family: 'NeueMachina';
-    margin-bottom: 50px;
-
+    margin-bottom: 5vw;
 }
-.text-highlight{
+
+.text-highlight {
     font-family: 'NeueMachina';
     color: #24cfa6;
-
-
 }
+
 #view1 .middle p .italic {
     font-style: italic;
     font-weight: 100;
@@ -37,33 +35,33 @@
 #view1 .middle #button {
     text-decoration: none;
     color: black;
-    padding: 10px 30px;
+    padding: 1.5vw 5vw;
     background-color: #24cfa6;
     border-radius: 10px;
     font-family: 'NeueMachina';
-    font-size: 20px;
+    font-size: 4vw;
     font-weight: bold;
 }
 
 #view1 .middle .side-text {
-    font-size: 13px;
-    width: 200px;
+    font-size: 2.5vw;
+    width: 40%;
     text-align: left;
     position: absolute;
-    right: 25vw;
+    right: 5%;
     bottom: 0;
 }
 
 #view1 .bottom {
-    margin-top: 50px;
+    margin-top: 5vw;
     width: 100%;
 }
 
 #view1 .bottom .mileStones {
-    padding-top: 20px;
+    padding-top: 2vw;
     display: flex;
-    gap: 100px;
-    font-size: 35px;
+    gap: 5vw;
+    font-size: 2vw;
     justify-content: center;
 }
 
@@ -72,27 +70,27 @@
 }
 
 #view1 .bottom .mileStones .mileStone .text p {
-    font-size: 18px;
+    font-size: 1.2vw;
     font-family: 'NeueMachina';
 }
 
 #view2 .top {
     width: 100%;
     font-family: 'NeueMachina';
-    margin-top: 50px;
-    font-size: 40px;
+    margin-top: 5vw;
+    font-size: 4vw;
     font-weight: 400;
     text-align: center;
 }
 
 #view2 .middle iframe {
     aspect-ratio: 16/9;
-    max-width: 1000px;
-    margin-left: 450px;
-    margin-top: 100px;
+    max-width: 90vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
     border-radius: 20px;
     overflow: hidden;
-    width: 100%;
+    width: 90%;
     border: none;
 }
 
@@ -102,42 +100,46 @@
     justify-content: center;
     flex-direction: column;
 }
+
 #view2 .bottom {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 5vw;
 }
+
 #view2 .bottom #button {
     text-decoration: none;
     color: black;
-    padding: 10px 30px;
+    padding: 1.5vw 5vw;
     background-color: #24cfa6;
     border-radius: 10px;
     margin: 0 auto;
 }
 
-
-#view3{
-    margin-top: 50px;
-    margin-left: 50px;
+#view3 {
+    margin-top: 5vw;
+    margin-left: 5vw;
 }
 
-#view3 #courses_offered{
-    font-size: 50px;
+#view3 #courses_offered {
+    font-size: 5vw;
     font-weight: 200;
 }
-#view3 #courses{
+
+#view3 #courses {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 5vw;
     width: 100%;
 }
-#view3 #courses .course{
-    margin-right: 100px;
-    margin-bottom: 100px;
+
+#view3 #courses .course {
+    margin-right: 5vw;
+    margin-bottom: 5vw;
 }
-#view3 #courses .course #image_link{
-    width: 450px;
+
+#view3 #courses .course #image_link {
+    width: 45vw;
     height: fit-content;
     border-radius: 20px;
     background-color: #181717;
@@ -147,60 +149,129 @@
     border-radius: 25px;
     overflow: hidden;
 }
-#view3 #courses .course #image_link p{
-    font-size: 30px;
-    font-weight: 300;
-    font-family: NeueMachina;
-    margin-left: 20px;
-    margin-bottom: 20px;
 
+#view3 #courses .course #image_link p {
+    font-size: 3vw;
+    font-weight: 300;
+    font-family: 'NeueMachina';
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
-#view3 #courses .course img{
-    width: 450px;
-    margin-bottom: 10px;
+
+#view3 #courses .course img {
+    width: 45vw;
+    margin-bottom: 2vw;
 }
-#view3 #courses .course #link{
-    width: 400px;
-    padding: 7px 25px;
+
+#view3 #courses .course #link {
+    width: 40vw;
+    padding: 2vw 6vw;
     text-align: center;
     color: black;
     text-decoration: none;
     background-color: #24cfa6;
     display: block;
     border-radius: 20px;
-    font-size: 30px;
-    margin-top: 25px;
+    font-size: 4vw;
+    margin-top: 3vw;
     font-weight: bold;
-    font-family: NeueMachina;
-
+    font-family: 'NeueMachina';
 }
-#view4{
+
+#view4 {
     width: 100%;
 }
-#view4 #companees{
-    font-size: 50px;
+
+#view4 #companees {
+    font-size: 5vw;
     text-align: center;
-    font-family: NeueMachina;
+    font-family: 'NeueMachina';
 }
-#view4 #companiesimg{
+
+#view4 #companiesimg {
     width: 75%;
-    height: 400px;
-    margin: 100px auto;
+    height: 40vw;
+    margin: 10vw auto;
     background-image: url(../images/companies.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#view4 #button{
-    width: 400px;
-    padding: 7px 25px;
+
+#view4 #button {
+    width: 35vw;
+    padding: 2vw 6vw;
     text-align: center;
     color: black;
     text-decoration: none;
     background-color: #24cfa6;
     display: block;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 4vw;
     font-weight: bold;
-    font-family: NeueMachina;
-    margin: 25px auto;
+    font-family: 'NeueMachina';
+    margin: 5vw auto;
+}
+
+/* Media Queries for different screen sizes */
+@media screen and (max-width: 768px) {
+    #view1 .middle p {
+        font-size: 7vw;
+    }
+
+    #view2 .top {
+        font-size: 6vw;
+    }
+
+    #view2 .middle iframe {
+        margin-left: 5vw;
+        width: 90vw;
+    }
+
+    #view3 #courses .course {
+        margin-right: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    #view3 #courses .course img {
+        width: 90vw;
+    }
+
+    #view3 #courses .course #link {
+        width: 70vw;
+        font-size: 5vw;
+    }
+
+    #view4 #button {
+        width: 70vw;
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #view1 .middle p {
+        font-size: 8vw;
+    }
+
+    #view2 .top {
+        font-size: 7vw;
+    }
+
+    #view3 #courses .course {
+        margin-right: 3vw;
+        margin-bottom: 5vw;
+    }
+
+    #view3 #courses .course img {
+        width: 90vw;
+    }
+
+    #view3 #courses .course #link {
+        width: 80vw;
+        font-size: 6vw;
+    }
+
+    #view4 #button {
+        width: 80vw;
+        font-size: 6vw;
+    }
 }
